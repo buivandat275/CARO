@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/a2"
+    tools:context=".CheDo"
+    >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="85dp"
+        android:text="Chọn chế độ chơi"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="29dp" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="3 x 3"
+        android:layout_marginBottom="45dp"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:background="@color/blueW"
+        />
+
+    <Button
+        android:id="@+id/bt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 x 5"
+        android:layout_gravity="center"
+        android:textSize="32dp"
+        android:layout_marginBottom="45dp"
+        android:textColor="@color/black"
+        android:background="@color/blueW"/>
+
+    <Button
+        android:id="@+id/bt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="10 x 10"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:background="@color/blueW"/>
+</LinearLayout>
